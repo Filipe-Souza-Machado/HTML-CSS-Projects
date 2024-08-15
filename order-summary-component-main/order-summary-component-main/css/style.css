@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    margin: 0px;
+}
+
+img {
+    width: 370px;
+}
+
+#conteudo {
+    width: 370px;
+    height: 400px;
+    background-color: aqua;
+}
+
+h1 {
+    font-family: "Red Hat Display", sans-serif;
+    color:   hsl(223, 47%, 23%);
+}
+
+#paragrafo {
+    height: 150px;
+    display: flex;
+    text-align: center;
+
+}
+
+.paragrafo_descricao {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 24px;
+    color:  hsl(225, 100%, 94%);
+}
+
+#plano {
+    width: 350px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+}
+
+#separacao {
+    background-color:blueviolet;
+
+    width: 270px;
+}
+
+#separacao2 {
+    background-color: brown;
+    width: 80px;
+
+}
+
+.plano_anual {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.preco {
+    font-size: 17px;
+    font-family: "Red Hat Display", sans-serif;
+    color:  hsl(224, 23%, 55%);
+    margin-left: 50px;
+}
+
+.link {
+    font-size: 17px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    color:  hsl(245, 75%, 52%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
