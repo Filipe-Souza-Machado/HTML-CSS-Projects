@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  height: 100vh;
+}
+
+.principal {
+  display: flex;
+  
+}
+
+.imagem_conteudo {
+  width: 500px;
+  height: 700px ;
+  border-top-left-radius:  20px ;
+  border-bottom-left-radius:  20px ;
+}
+
+#conteudo {
+  background-color: #FBFAF8;
+  width: 500px;
+  height: 700px ;
+  border-top-right-radius:  20px ;
+  border-bottom-right-radius:  20px ;
+}
+
+#conteudo_perfum {
+  margin-left: 50px;
+  margin-bottom: 0px ;
+}
+
+.conteudo_perfum_produto {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+#conteudo_titulo {
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.conteudo_titulo-principal {
+  font-family: fraunces, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: black;
+}
+
+#conteudo_descricao {
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.conteudo_descricao-produto {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color: hsl(228, 12%, 48%);
+}
+
+#conteudo_preco {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 60px;
+}
+
+.conteudo_preco-desconto {
+  font-family: fraunces;
+  font-size: 44px;
+  margin-left: 20px;
+  color: darkgreen;
+}
+
+.conteudo_preco-antigo {
+  font-family: fraunces;
+  text-decoration: line-through;
+  margin-right: 200px;
+  color: hsl(228, 12%, 48%);
+}
+
+#conteudo_botao {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100px;
+}
+
+.conteudo_botao-compra {
+  background-color: #2D6321;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding-right: 180px;
+  padding-left: 180px;
+  height: 60px;
+  margin: 0px;
+  text-decoration: none;
+  border: 0px;
+  font-family: fraunces,Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+.conteudo_botao-compra:hover {
+  background-color: #387A29;
+}
+
+#attribution {
+ 
+}
+
+.attribution_link1{
+  text-decoration: none;
+}
+
+.attribution_link2{
+  text-decoration: none;
+}
